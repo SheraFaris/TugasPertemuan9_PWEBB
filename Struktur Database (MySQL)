@@ -1,0 +1,10 @@
+CREATE DATABASE pendaftaran_siswa;
+USE pendaftaran_siswa;
+
+CREATE TABLE calon_siswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    alamat TEXT,
+    jenis_kelamin ENUM('Laki-laki','Perempuan'),
+    agama VARCHAR(20)
+);
